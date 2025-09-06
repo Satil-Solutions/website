@@ -75,6 +75,7 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
             <nav class="flex items-center justify-between h-20">
                 
+                <div class="flex items-center space-x-8">
                 <a href="//localhost:1313/" class="flex items-center space-x-4">
                     
                         <img src="/images/logo.svg" alt="Satil" class="h-12">
@@ -91,17 +92,14 @@
                     
                     
                     <div class="relative group">
-                        <button class="flex items-center text-base text-gray-900 hover:text-primary-600 font-bold transition duration-200">
+                        <button class="flex items-center text-xl text-gray-900 hover:text-primary-600 transition duration-200">
                             Products
-                            <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                            </svg>
                         </button>
                         <div class="absolute left-0 mt-2 w-72 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-in-out">
                             <div class="py-3 bg-white border border-gray-100 shadow-sm rounded-md">
                                
                                 <a href="/products/fmea/" class="flex items-start space-x-4 hover:bg-gray-50 transition px-4 py-2">
-                                    <img src="/images/app.png" alt="Vertilia" class="w-10 h-10 object-contain bg-white">
+                                    <img src="/images/app.png" alt="Vertilia" class="w-10 h-10 object-contain">
                                     <div> 
                                         <div class="text-sm font-semibold text-gray-900">Vertilia</div>
                                         <div class="text-xs text-gray-600">FMEA: Failure mode analysis</div>
@@ -109,7 +107,7 @@
                                 </a>
                                 
                                 <a href="/products/optima/" class="flex items-start space-x-4 hover:bg-gray-50 transition px-4 py-2">
-                                    <img src="/images/app.png" alt="Optima" class="w-10 h-10 object-contain bg-white">
+                                    <img src="/images/app.png" alt="Optima" class="w-10 h-10 object-contain">
                                     <div> 
                                         <div class="text-sm font-semibold text-gray-900">Optima</div>
                                         <div class="text-xs text-gray-600">Production Planning</div>
@@ -122,14 +120,15 @@
                     
                     
                     
-                    <a href="/blog" class="text-base text-gray-900 hover:text-primary-600 font-bold transition duration-200">Blog</a>
+                    <a href="/blog" class="text-xl text-gray-900 hover:text-primary-600 transition duration-200">Blog</a>
                     
                     
+                </div>
                 </div>
 
                 
                 
-                <div class="hidden md:flex items-center space-x-4">
+                <div class="hidden md:flex items-center space-x-4 ml-auto">
                     
                     
                     
@@ -142,8 +141,8 @@
 
                 
                 <div class="md:hidden">
-                    <label for="nav-toggle" class="p-2 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 transition-colors cursor-pointer">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <label for="nav-toggle" class="inline-flex items-center justify-center p-2 rounded-lg hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 transition-colors duration-200 cursor-pointer">
+                        <svg class="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
                     </label>
@@ -155,17 +154,35 @@
         <div class="nav-content md:hidden w-full fixed left-0 right-0 top-20 bg-white border-t border-gray-100 shadow-lg">
             <div class="w-full px-6 py-4">
                 
-                    
+                
+                
+                
                     <div class="py-2">
-                        <div class="text-xl text-gray-900 font-bold mb-2">Products</div>
+                        <div class="text-xl text-gray-900 mb-2">Products</div>
                         <div class="pl-4">
                             
+                                <a href="/products/fmea/" class="flex items-start space-x-4 hover:bg-gray-50 transition px-4 py-2">
+                                    <img src="/images/app.png" alt="Vertilia" class="w-10 h-10 object-contain">
+                                    <div> 
+                                        <div class="text-sm font-semibold text-gray-900">Vertilia</div>
+                                        <div class="text-xs text-gray-600">FMEA: Failure mode analysis</div>
+                                    </div>
+                                </a>
+                                
+                                <a href="/products/optima/" class="flex items-start space-x-4 hover:bg-gray-50 transition px-4 py-2">
+                                    <img src="/images/app.png" alt="Optima" class="w-10 h-10 object-contain">
+                                    <div> 
+                                        <div class="text-sm font-semibold text-gray-900">Optima</div>
+                                        <div class="text-xs text-gray-600">Production Planning</div>
+                                    </div>
+                                </a>
+                                
                         </div>
                     </div>
                     
                 
-                    
-                    <a href="/blog" class="block text-xl text-gray-900 hover:text-primary-600 font-bold transition duration-200 py-2">Blog</a>
+                
+                    <a href="/blog" class="block text-xl text-gray-900 hover:text-primary-600 transition duration-200 py-2">Blog</a>
                     
                 
                 
@@ -205,10 +222,6 @@
     
     <div class="pt-20">
         
-
-
-
-
 <style>
 .gradient-text {
   background: linear-gradient(to right, #5573df, #a855f7);
@@ -221,7 +234,7 @@
 
 <section class="text-center py-24 px-4">
   <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-    <span class='gradient-text'>Simplify</span> Production with Smarter IT
+    <span class='gradient-text'>Simplify</span> Production <br> with Smarter IT
   </h1>
   <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mt-4 mb-10">Empower your production teams with robust, tools built for reliability, scalability, and real-time performance on the factory floor and beyond.</p>
   <div class="flex justify-center gap-4">
@@ -229,11 +242,25 @@
   </div>
 </section>
 
+<section class="founder-story bg-gradient-to-r from-gray-100 to-white py-16 px-8 md:px-20">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-4xl font-bold text-gray-800 mb-4">The Story Behind the Code</h2>
+    <p class="text-lg text-gray-600 mb-10">Every great tool starts with a problem worth solving. Optima was born from years of firsthand experience in manufacturing - where delays, miscommunication, and outdated planning tools slowed down progress. I built Optima to change that.</p>
+    <div class="founder-card bg-white shadow-md rounded-lg p-6 md:flex items-center">
+      <div class="text-left mt-6 md:mt-0">
+        <h3 class="text-xl font-semibold text-gray-800">Mario</h3>
+        <p class="text-gray-600 italic">Founder &amp; Engineer</p>
+        <p class="mt-4 text-gray-700">“I didn&#39;t set out to build a software - I set out to solve a problem. Optima is the tool I wish I had years ago and now, it&#39;s yours.”</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 <section class="py-12">
-  <h1 class="text-center text-3xl font-bold my-8">
-    Powerful solutions to unlock loyalty, efficiency, and growth
+  <h1 class="text-center text-3xl font-bold mb-12 px-4">
+    Powerful Tools for Smarter Production and Sustainable Growth
   </h1>
 
   <div class="max-w-6xl mx-auto px-6">
@@ -249,7 +276,7 @@
               Vertilia
             </h2>
             <p class="text-sm py-2 text-gray-600">
-              Prevent failures before they occur.
+              Prevent failures before they occur
             </p>
           </div>
 
@@ -270,7 +297,7 @@
               Optima
             </h2>
             <p class="text-sm py-2 text-gray-600">
-              Optimize production flow.
+              Plan Smart and produce faster
             </p>
           </div>
 
@@ -286,7 +313,82 @@
 </section>
 
 
+<section class="trust-signals bg-gray-50 py-16 px-8 md:px-20">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Engineered to Lead</h2>
+    <p class="text-lg text-gray-600 mb-12">
+      Our tools are built to the same rigorous standards trusted by top industrial teams worldwide - giving you the reliability and scalability you need to grow with confidence.
+    </p>
 
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+       <div class="bg-white shadow-lg rounded-xl p-8 flex flex-col items-center text-center">
+        <div class="text-4xl text-blue-600 mb-4">🛡️</div>
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Enterprise-Grade Security</h3>
+        <p class="text-gray-600">End-to-end encryption, secure authentication, and GDPR-compliant architecture.</p>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-xl p-8 flex flex-col items-center text-center">
+        <div class="text-4xl text-green-600 mb-4">⚡</div>
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Real-Time Performance</h3>
+        <p class="text-gray-600">Engineered for lightning-fast speed and seamless responsiveness.</p>
+      </div>
+
+       <div class="bg-white shadow-lg rounded-xl p-8 flex flex-col items-center text-center">
+        <div class="text-4xl text-purple-600 mb-4">🚀</div>
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Modular & Scalable</h3>
+        <p class="text-gray-600">Start small, grow big. Our tools adapt to your production needs without costly overhauls.</p>
+      </div>
+    </div>
+
+    <div class="mt-12">
+      <p class="text-gray-500 text-sm italic">*Infrastructure powered by trusted cloud providers. Designed with input from industry engineers.</p>
+    </div>
+  </div>
+</section>
+
+<section id="why-we-exist" class="section py-6 px-3 my-8">
+    <div class="container text-center">
+        <h2 class="text-3xl font-medium transition-colors duration-200">
+              Why We Exist
+        </h2>
+        <p class="lead mb-4 pt-4 text-dark">
+            We believe great ideas deserve great execution.
+        </p>
+        <div class="mx-auto" style="max-width: 700px;">
+            <p class="mb-4 text-muted">
+                Our mission is to empower creators, builders, and dreamers to turn vision into reality - with tools that feel intuitive, support that feels human, and a platform that grows with you.
+            </p>
+        </div>
+        <blockquote class="blockquote text-center mt-4">
+            <p class="mb-0">"We're not just solving problems. We're building momentum."</p>
+        </blockquote>
+    </div>
+</section>
+
+<!--<section id="cta-booking" class="section py-5 bg-light text-center">
+  <div class="container">
+    <h2 class="mb-4">Let’s Talk</h2>
+    <p class="lead mb-3">
+      I built Optima to solve real problems I faced in production—now I want to hear yours.
+    </p>
+    <p class="mb-4">
+      Whether you're curious, skeptical, or just exploring smarter tools, I’d love to connect.
+      No pressure. Just a conversation about what’s possible.
+    </p>
+    <div class="d-flex justify-content-center gap-3 flex-wrap">
+      <a href="https://calendly.com/your-link" class="btn btn-primary btn-lg">
+        Book a Demo
+      </a>
+      <a href="mailto:hello@optima.io" class="btn btn-outline-secondary btn-lg">
+        Send Me a Message
+      </a>
+    </div>
+    <p class="mt-4 text-muted small">
+      Or just say hi. I read every message.
+    </p>
+  </div>
+</section>
+-->
 
     </div>
 
@@ -360,8 +462,8 @@
                 <p class="text-gray-600 text-sm">
                     © 2025 Satil. All rights reserved.
                 </p>
-                <a href="https://chaoming.li" class="text-sm text-gray-600 hover:text-primary-600" target="_blank" rel="noopener noreferrer">
-                    Designed by Chaoming Li
+                <a href="https://swegeeks.com" class="text-sm text-gray-600 hover:text-primary-600" target="_blank" rel="noopener noreferrer">
+                    Designed by Jonatan Bennerstål
                 </a>
             </div>
         </div>

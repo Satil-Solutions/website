@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-	"./layouts/**/*.html",
-    "./content/**/*.{html,md}",
-  ],
+  content: ["./layouts/**/*.html"],
   theme: {
     extend: {
       colors: {
@@ -31,15 +28,14 @@ module.exports = {
           800: '#6b21a8',
           900: '#581c87',
         },
-		 green: {
+        green: {
             100: '#E0FFE0',
           },
-          blue: {
-            100: '#E0F7FF',
-          },
-          red: {
-            100: '#ef4444',
-          },
+        blue: {
+          100: '#E0F7FF',
+        },
+        red: {
+          100: '#ef4444',
         },
       },
       fontFamily: {
@@ -53,8 +49,8 @@ module.exports = {
     require('@tailwindcss/typography'),
   ],
   safelist: [
-      'bg-red-100',
-      'bg-green-100',
-      'bg-blue-100',
-    ],
+    'bg-red-100',
+    'bg-green-100',
+    'bg-blue-100',
+  ],
 }

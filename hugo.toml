@@ -147,6 +147,9 @@ paginatePath = "page"
 [build]
   writeStats = true
 
+[build.postCSS]
+  use = true
+
 [build.buildStats]
   enable = true
 
