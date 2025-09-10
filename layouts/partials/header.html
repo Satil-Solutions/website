@@ -10,7 +10,7 @@
                 <div class="flex items-center space-x-8">
                 <a href="{{ .Site.BaseURL }}" class="flex items-center space-x-4">
                     {{ with $headerConfig.logo }}
-                        <img src="{{ .src | relURL }}" alt="{{ $.Site.Title }}" class="{{ with .class }}{{ . }}{{ else }}h-12{{ end }}">
+                        <img src="{{ .src | relURL }}" alt="{{ $.Site.Title }}" class="{{ with .class }}{{ . }}{{ else }}h-10{{ end }}">
                     {{ else }}
                         <span class="text-3xl font-bold text-gray-900">{{ .Site.Title }}</span>
                     {{ end }}

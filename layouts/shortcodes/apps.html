@@ -8,7 +8,7 @@
   <div class="max-w-6xl mx-auto px-6">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       {{ range $apps.items }}
-        <a href="{{ .url }}" class="block {{ .color }} rounded-xl p-8 transition text-center flex flex-col items-center space-y-6 hover:shadow-lg cursor-pointer">
+        <a href="{{ .url }}" class="block {{ .color }} rounded-xl pt-8 px-8 transition text-center flex flex-col items-center space-y-6 hover:shadow-lg cursor-pointer">
           <div class="inline-block px-3 py-1 text-sm font-medium text-primary-600 bg-white rounded-full">
             {{ .tag }}
           </div>
@@ -22,11 +22,11 @@
             </p>
           </div>
 
-          <img src="{{ .image }}" alt="{{ .title }}" class="object-contain">
+          <img src="{{ .image }}" alt="{{ .title }}" class="object-contain pt-4">
 
-          <div class="text-center font-medium">
+          <!--<div class="text-center font-medium">
             Learn more
-          </div>
+          </div>-->
         </a>
       {{ end }}
     </div>

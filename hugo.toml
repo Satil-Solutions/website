@@ -1,7 +1,7 @@
 # Basic Configuration
 baseURL = "/"
 languageCode = "en-us"
-title = "Satil"
+title = "Satil Solutions: Simplify Production with Smarter IT"
 enableRobotsTXT = true
 
 # Enable syntax highlighting
@@ -26,7 +26,7 @@ paginatePath = "page"
 [params]
   description = ""
   author = "Jonatan Bennerstål"
-  logo = "/images/logo.png"
+  logo = "/images/logo.webp"
   # Google Analytics ID (e.g., "G-XXXXXXXXXX")
   # googleAnalytics = "G-XXXXXXXXXX"
   
@@ -68,7 +68,7 @@ paginatePath = "page"
     
     # Logo configuration
     [params.header.logo]
-      src = "/images/logo.png"
+      src = "/images/logo.webp"
     
     # Menu configuration
     [params.header.menu]
@@ -95,9 +95,9 @@ paginatePath = "page"
       #  url = "/signin"
       
       # Get Started button
-      [params.header.buttons.getStarted]
-        text = "Get Started"
-        url = "#"
+      #[params.header.buttons.getStarted]
+      #  text = "Get Started"
+      #  url = "#"
 
   # Blog configuration
   [params.blog]
