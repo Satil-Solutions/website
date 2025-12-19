@@ -2,7 +2,7 @@
   "name": "Satil",
   "version": "1.0.1",
   "description": "Empower your production teams with robust, tools built for reliability, scalability, and real-time performance on the factory floor and beyond",
-  "author": "Jonatan Bennerstål",
+  "author": "Satil AB",
   "license": "MIT",
   "scripts": {
     "start": "concurrently \"npx tailwindcss -i assets/css/main.css -o static/css/style.css --watch\" \"hugo server -D\"",

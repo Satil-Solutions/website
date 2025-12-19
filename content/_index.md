@@ -10,11 +10,11 @@ hero:
     url: "#"
 story:
   title: The Story Behind the Code
-  description:  Every great tool starts with a problem worth solving. Optima was born from years of firsthand experience in manufacturing - where delays, miscommunication, and outdated planning tools slowed down progress. I built Optima to change that.
+  description:  Every great tool starts with a problem worth solving. Nexa was born from years of firsthand experience in manufacturing - where delays, miscommunication, and outdated planning tools slowed down progress. I built Nexa to change that.
   founder:
    name: "Mario"
    role: "Founder & Engineer"
-   quote: "I didn't set out to build a software - I set out to solve a problem. Optima is the tool I wish I had years ago and now, it's yours."
+   quote: "I didn't set out to build a software - I set out to solve a problem. Nexa is the tool I wish I had years ago and now, it's yours."
 ---
 
 {{< hero >}}

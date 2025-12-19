@@ -25,7 +25,7 @@ paginatePath = "page"
 
 [params]
   description = ""
-  author = "Jonatan Bennerstål"
+  author = "Satil AB"
   logo = "/images/logo.webp"
   # Google Analytics ID (e.g., "G-XXXXXXXXXX")
   # googleAnalytics = "G-XXXXXXXXXX"
@@ -38,9 +38,6 @@ paginatePath = "page"
     gradient_from = "#2563eb"  # Indigo-600
     gradient_to = "#7c3aed"    # Purple-600
     gradient_angle = 30
-    [params.cta.primary_button]
-      text = "Check products"
-      url = "/products"
     [params.cta.secondary_button]
       text = "Book a demo"
       url = "#"
@@ -57,7 +54,6 @@ paginatePath = "page"
   
   # Footer Configuration
   [params.footer]
-    column_1_title = "PRODUCTS"
     column_2_title = "COMPANY"
     column_3_title = "LEGAL"
   
@@ -173,25 +169,15 @@ paginatePath = "page"
 # Navigation Menu
 [menu]
   [[menu.main]]
-    name = "Products"
-    weight = 1
-    [menu.main.params]
-      has_submenu = true
-      submenu_key = "applications"
-  [[menu.main]]
     name = "Blog"
     url = "/blog"
-    weight = 2
+    weight = 1
 
   # Footer Column 1 Menu
   [[menu.footer_column_1]]
     name = "FMEA"
     url = "/products/fmea/"
     weight = 1
-  [[menu.footer_column_1]]
-    name = "Production Planning"
-    url = "/products/optima/"
-    weight = 2
 
   # Footer Column 2 Menu
   [[menu.footer_column_2]]

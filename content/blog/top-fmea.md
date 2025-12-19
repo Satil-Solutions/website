@@ -1,7 +1,7 @@
 ---
 title: "5 Best FMEA Software for Risk Analysis in 2025"
 date: 2025-09-05T16:50:00+02:00
-author: "Jonatan Bennerstål"
+author: "Satil AB"
 tags: ["FMEA", "Risk Analysis", "Software", "Quality Management", "2025"]
 categories: ["Engineering", "Software Reviews"]
 description: "Explore the top 5 FMEA software tools for risk analysis in 2025, featuring cutting-edge platforms for quality and reliability engineering."
