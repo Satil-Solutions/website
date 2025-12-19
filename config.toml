@@ -1,5 +1,5 @@
+baseURL = "https://satil.io/"
 [module]
   [module.hugoVersion]
     extended = true
     min = "0.80.0"
-    baseURL = "https://satil.io/"
